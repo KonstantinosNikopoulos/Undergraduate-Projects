@@ -8,9 +8,9 @@
 
 
 1. Preprocess dataset   
-Apply PCA for dimension reduction and divide even and odd numbers.   
+Apply PCA for dimension reduction.     
 new shape of data: (60000, 100) (10000, 100)   
-new shape of labels: (60000, 2) (10000, 2)    
+new shape of labels: (60000, 10) (10000, 10)    
 
 2. Construction of neural network   
 
