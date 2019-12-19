@@ -8,7 +8,7 @@
 
 
 1. Preprocess dataset   
-Apply PCA for dimension reduction and divide even and odd numbers.
+Apply PCA for dimension reduction and divide even and odd numbers.   
 new shape of data: (60000, 100) (10000, 100)   
 new shape of labels: (60000, 2) (10000, 2)    
 
