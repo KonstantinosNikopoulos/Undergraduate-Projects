@@ -7,11 +7,8 @@
 
 1. Preprocess dataset   
 Apply PCA for dimension reduction.   
-shape of data: (10000, 784) (2000, 784)   
-shape of labels: (10000,) (2000,)   
-Keep a subset of dataset   
-new shape of data: (10000, 100) (2000, 100)   
-new shape of labels: (10000,) (2000,)   
+shape of data: (60000, 100) -> training , (10000, 100)->testing
+shape of labels: (60000, 10)-> training, (10000, 10)->testing
 
 2. Parameters   
 
