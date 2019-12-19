@@ -18,7 +18,7 @@ new shape of labels: (60000, 10) (10000, 10)
 Neural network includes 2 hidden layers with 128 neurons each and an ouput layer with 10 neurons for classification.
 
 2.2 Compile and train   
-Error function: mean squared error    
+Loss function: mean squared error    
 Optimizer: adam   
 Batch size: 128    
 Epochs: 50   
