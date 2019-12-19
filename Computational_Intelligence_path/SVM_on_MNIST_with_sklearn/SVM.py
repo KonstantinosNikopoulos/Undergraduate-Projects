@@ -25,10 +25,6 @@ print("shape of labels:", y_train.shape, y_test.shape) #(60000,) (10000,)
 # Reshape the arrays
 x_train = x_train.reshape(60000, 784)
 x_test = x_test.reshape(10000, 784)
-x_train= x_train[0:10000,]
-y_train= y_train[0:10000,]
-x_test= x_test[0:2000,]
-y_test= y_test[0:2000,]
 
 # Make the values float so we can get decimal points after division
 x_train = x_train.astype('float32')
@@ -46,16 +42,16 @@ x_test = 2 * x_test - 1
 y_train = y_train % 2
 y_test = y_test % 2
 
-print("new shape of data:", x_train.shape, x_test.shape) #(10000, 784) (2000, 784)
-print("new shape of labels:", y_train.shape, y_test.shape) #(10000,) (2000,) 
+print("new shape of data:", x_train.shape, x_test.shape) 
+print("new shape of labels:", y_train.shape, y_test.shape) 
 
 # PCA for reduction of dimensions (sklearn)
 pca = PCA(n_components=100)
 x_train = pca.fit_transform(x_train)
 x_test = pca.transform(x_test)
 
-print("new shape of data:", x_train.shape, x_test.shape) #(10000, 100) (2000, 100)
-print("new shape of labels:", y_train.shape, y_test.shape) #(10000,) (2000,)
+print("new shape of data:", x_train.shape, x_test.shape) 
+print("new shape of labels:", y_train.shape, y_test.shape) 
 
 
 ##################################### SVM ############################################
