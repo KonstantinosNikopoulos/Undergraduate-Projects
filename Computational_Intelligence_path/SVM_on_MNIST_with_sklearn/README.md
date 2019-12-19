@@ -6,9 +6,9 @@
 
 
 1. Preprocess dataset   
-Apply PCA for dimension reduction.   
-shape of data: (60000, 100) -> training , (10000, 100)->testing   
-shape of labels: (60000, 10)-> training, (10000, 10)->testing   
+Apply PCA for dimension reduction and divide even and odd numbers.   
+new shape of data: (60000, 100) (10000, 100)   
+new shape of labels: (60000, 2) (10000, 2)    
 
 2. Parameters   
 
