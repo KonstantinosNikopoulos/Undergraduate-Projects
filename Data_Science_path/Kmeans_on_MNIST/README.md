@@ -1,5 +1,5 @@
-K-means on MNIST
+# K-means on MNIST
 
-author: Konstantinos Nikopoulos
+### Author: Konstantinos Nikopoulos
 
  
