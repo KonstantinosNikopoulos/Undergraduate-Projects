@@ -1,4 +1,4 @@
-### Association Rule Mining in Retail Store Dataset
+# Association Rule Mining in Retail Store Dataset
 
 ### Author: Konstantinos Nikopoulos
 
