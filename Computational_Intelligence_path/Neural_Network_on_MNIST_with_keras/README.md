@@ -1,7 +1,7 @@
 # Neural Network on MNIST with keras
 
 ### Author: Konstantinos Nikopoulos
-
+### Course: Neural Networks & Deep Learning
 
 ##### Test and evaluate different activation functions.
 
