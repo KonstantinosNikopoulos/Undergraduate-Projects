@@ -1,6 +1,7 @@
 # Support Vector Machine on MNIST with sklearn   
 
 ### Author: Konstantinos Nikopoulos   
+### Course: Neural Networks & Deep Learning
 
 ##### Test parameters of SVM for regognition of even and odd numbers.   
 
