@@ -1,6 +1,7 @@
 # Radial Basis Function Network on MNIST with sklearn   
    
 ### Author: Konstantinos Nikopoulos   
+### Course: Neural Networks & Deep Learning
 
 ##### Test parameters of RBF for regognition of even and odd numbers.   
 
