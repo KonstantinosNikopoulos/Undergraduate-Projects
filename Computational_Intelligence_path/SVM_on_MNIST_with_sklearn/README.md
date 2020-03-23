@@ -6,16 +6,12 @@
 ##### Test parameters of SVM for regognition of even and odd numbers.   
 
 
-
-
-
-
-1. Preprocess dataset   
+1.0 Preprocess dataset   
 Apply PCA for dimension reduction and divide even and odd numbers.   
 new shape of data: (60000, 100) (10000, 100)   
 new shape of labels: (60000, 2) (10000, 2)    
 
-2. Parameters   
+2.0 Parameters   
 
 2.1 Kernels   
 Kernels: linear and polynomial (2 and 3 degree)   
