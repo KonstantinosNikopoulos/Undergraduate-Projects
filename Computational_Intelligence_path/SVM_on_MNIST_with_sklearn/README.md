@@ -6,6 +6,10 @@
 ##### Test parameters of SVM for regognition of even and odd numbers.   
 
 
+
+
+
+
 1. Preprocess dataset   
 Apply PCA for dimension reduction and divide even and odd numbers.   
 new shape of data: (60000, 100) (10000, 100)   
